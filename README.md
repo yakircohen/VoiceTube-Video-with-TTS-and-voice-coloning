@@ -59,12 +59,12 @@ otherwise go to https://pytorch.org/get-started/locally/
 
 4. run spyder or any other python installer as admin<br/>
    Install the packages:<br/>
-   conda install pyaudio<br/>
-   pip install sounddevice<br/>
-   pip install pyqtwebengine
-4.5. pip install PyQt5==5.10
-4.6. pip install matplotlib
-4.7. pip install pymediainfo
+    conda install pyaudio<br/>
+    pip install sounddevice<br/>
+    pip install pyqtwebengine
+ pip install PyQt5==5.10
+ pip install matplotlib
+ pip install pymediainfo
 pip install scipy
 pip install unidecode
 pip install inflect
