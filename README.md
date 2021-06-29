@@ -58,13 +58,13 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 otherwise go to https://pytorch.org/get-started/locally/ 
 
 4. run spyder or any other python installer as admin
-4.1 Install the packages:
-4.2 conda install pyaudio
-4.3 pip install sounddevice
-4.4 pip install pyqtwebengine
-4.5 pip install PyQt5==5.10
-4.6 pip install matplotlib
-4.7 pip install pymediainfo
+4.1. Install the packages:
+4.2. conda install pyaudio
+4.3. pip install sounddevice
+4.4. pip install pyqtwebengine
+4.5. pip install PyQt5==5.10
+4.6. pip install matplotlib
+4.7. pip install pymediainfo
 pip install scipy
 pip install unidecode
 pip install inflect
