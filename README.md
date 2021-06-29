@@ -1,4 +1,4 @@
-#VoiceTube - Video with TTS and voice coloning
+# VoiceTube - Video with TTS and voice coloning
 The software can make any voice that read your subtitles on the video.(final project)
 ![VoiceTube logo](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/logo.png)
 
@@ -30,7 +30,7 @@ End: Subtitle voice end time.
 Use suggested srt file time: Option to select the subtitle end times along with the subtitle voice.
 Play video result: After completing the entire process, the user will see a window with the video that he selected with the voice and the subtitles.
 
-##Recorder:
+## Recorder:
 ![record](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/recorod.png)
 record screen:
 Back: return to the main screen.
@@ -43,7 +43,7 @@ Play: Plays the recording.
 Pause: Pauses the recording
 Save: Gives the user the option to save the recording he made after giving it a name in the next row.
 
-##Video out:
+## Video out:
 ![video](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/output.png)
 Video out screen:
 Shows you the result of the video you selected together with the voice and also the subtitles if the user selected the option to paste the subtitles.
@@ -77,4 +77,6 @@ pip install pyttsx3
 5.install also klite codec kit
 
 For more details, contact me at yakircohen320@gmail.com
+
+
 
