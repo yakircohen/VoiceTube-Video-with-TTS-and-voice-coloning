@@ -3,19 +3,19 @@ The software can make any voice that read your subtitles on the video.(final pro
 ![VoiceTube logo](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/logo.png)
 
 
-## Subtitles Edit:
+## Subtitles Edit
 ![Subtitles Edit](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/Subtitles%20Edit.png)
 ### Edit subtitles screen:
 1. Load file: select a subtitle file and uploads into the table.
 2. Open video: Select a video and upload it to the screen.
-The table: each cell in the table can be edited by double-clicking.
-Delete: deletes a row in the table to which it belongs.
-Start: Determining the start time of the subtitle appearance.
-End: Determining the final time of subtitle disappearance.
-Add: After adding the text and its appearance times the button adds it to the table.
-Go to TTS(text to speech): After the user has finished editing the subtitles, he is taken to the recording stage.
+3. The table: each cell in the table can be edited by double-clicking.
+4. Delete: deletes a row in the table to which it belongs.
+5. Start: Determining the start time of the subtitle appearance.
+6. End: Determining the final time of subtitle disappearance.
+7. Add: After adding the text and its appearance times the button adds it to the table.
+8. Go to TTS(text to speech): After the user has finished editing the subtitles, he is taken to the recording stage.
 
-## Converter:
+## Converter
 ![converter1](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/12.png)
 ![converter2](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/13.png)
 Converter screen:
