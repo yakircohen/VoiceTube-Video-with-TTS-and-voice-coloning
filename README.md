@@ -6,8 +6,8 @@ The software can make any voice that read your subtitles on the video.(final pro
 ## Subtitles Edit:
 ![Subtitles Edit](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/Subtitles%20Edit.png)
 ### Edit subtitles screen:
- Load file: select a subtitle file and uploads into the table.
- Open video: Select a video and upload it to the screen.
+1. Load file: select a subtitle file and uploads into the table.
+2. Open video: Select a video and upload it to the screen.
 The table: each cell in the table can be edited by double-clicking.
 Delete: deletes a row in the table to which it belongs.
 Start: Determining the start time of the subtitle appearance.
