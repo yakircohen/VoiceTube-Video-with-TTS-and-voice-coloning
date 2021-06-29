@@ -49,16 +49,20 @@ The software can make any voice that read your subtitles on the video.(final pro
 Shows you the result of the video you selected together with the voice and also the subtitles if the user selected the option to paste the subtitles.
 
 # Usage
-1. Using python 3.7
-2. Install pytorch
-3. If you using windows
+1. Ffmpeg installed in command line.  
+2. Codec kit.
+3. Python 3.7 with the following installs:<br/>
+Install pytorch<br/>
+If using windows<br/>
 ```
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
-otherwise go to https://pytorch.org/get-started/locally/ 
+installing this sould install more libraries like Numpy and more.<br/>
+otherwise go to https://pytorch.org/get-started/locally/ <br/>
+make sure your python folder is not locked (as partially read only, read only)
 
-4. run spyder or any other python installer as admin<br/>
-   Install the packages:<br/>
+4. if you dont have conda you might have to install it
+then run: <br/>
     conda install pyaudio<br/>
     pip install sounddevice<br/>
     pip install pyqtwebengine<br/>
