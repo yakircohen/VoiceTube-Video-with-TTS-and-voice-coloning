@@ -49,9 +49,9 @@ Video out screen:
 Shows you the result of the video you selected together with the voice and also the subtitles if the user selected the option to paste the subtitles.
 
 # Usage
-1.using python 3.7
-2.Install pytorch
-3.If you using windows
+1. Using python 3.7
+2. Install pytorch
+3. If you using windows
 ```
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
@@ -77,6 +77,8 @@ pip install pyttsx3
 5.install also klite codec kit
 
 For more details, contact me at yakircohen320@gmail.com
+
+
 
 
 
