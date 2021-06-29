@@ -45,7 +45,7 @@ The software can make any voice that read your subtitles on the video.(final pro
 
 ## Video out:
 ![video](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/output.png)
-Video out screen:
+### Video out screen:
 Shows you the result of the video you selected together with the voice and also the subtitles if the user selected the option to paste the subtitles.
 
 # Usage
@@ -58,8 +58,8 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 otherwise go to https://pytorch.org/get-started/locally/ 
 
 4. run spyder or any other python installer as admin
-4.1. Install the packages:
-4.2. conda install pyaudio
+a. Install the packages:
+b. conda install pyaudio
 4.3. pip install sounddevice
 4.4. pip install pyqtwebengine
 4.5. pip install PyQt5==5.10
