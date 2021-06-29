@@ -61,20 +61,20 @@ otherwise go to https://pytorch.org/get-started/locally/
    Install the packages:<br/>
     conda install pyaudio<br/>
     pip install sounddevice<br/>
-    pip install pyqtwebengine
- pip install PyQt5==5.10
- pip install matplotlib
- pip install pymediainfo
-pip install scipy
-pip install unidecode
-pip install inflect
-pip install tensorflow==1.15
-pip install librosa
-pip install multiprocess
-pip install webrtcvad
-pip install pyttsx3
+    pip install pyqtwebengine<br/>
+ pip install PyQt5==5.10<br/>
+ pip install matplotlib<br/>
+ pip install pymediainfo<br/>
+pip install scipy<br/>
+pip install unidecode<br/>
+pip install inflect<br/>
+pip install tensorflow==1.15<br/>
+pip install librosa<br/>
+pip install multiprocess<br/>
+pip install webrtcvad<br/>
+pip install pyttsx3<br/>
 
-5.install also klite codec kit
+5.install also k-lite codec kit
 
 For more details, contact me at yakircohen320@gmail.com
 
