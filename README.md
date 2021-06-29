@@ -50,7 +50,7 @@ Shows you the result of the video you selected together with the voice and also 
 
 # Usage
 1. Ffmpeg installed in command line.  
-2. Codec kit.
+2. k-lite codec kit.
 3. Python 3.7 with the following installs:<br/>
 Install pytorch<br/>
 If using windows<br/>
@@ -77,8 +77,6 @@ pip install librosa<br/>
 pip install multiprocess<br/>
 pip install webrtcvad<br/>
 pip install pyttsx3<br/>
-
-5.install also k-lite codec kit
 
 For more details, contact me at yakircohen320@gmail.com
 
