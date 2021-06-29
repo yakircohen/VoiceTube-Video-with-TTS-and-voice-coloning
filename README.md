@@ -61,7 +61,7 @@ installing this sould install more libraries like Numpy and more.<br/>
 otherwise go to https://pytorch.org/get-started/locally/ <br/>
 make sure your python folder is not locked (as partially read only, read only)
 
-4. if you dont have conda you might have to install it
+4. if you don't have conda you might have to install it
 then run: <br/>
     conda install pyaudio<br/>
     pip install sounddevice<br/>
@@ -78,6 +78,8 @@ pip install multiprocess<br/>
 pip install webrtcvad<br/>
 pip install pyttsx3<br/>
 
+5. Download tacotron  https://drive.google.com/file/d/1KWt2kvAIjJV4EDtaKCOLdgCZkgjrX64D/view?usp=sharing   <br/>
+   insert him here==>  SStV2Ref\synthesizer\saved_models\logs-pretrained\taco_pretrained
 For more details, contact me at yakircohen320@gmail.com
 
 
