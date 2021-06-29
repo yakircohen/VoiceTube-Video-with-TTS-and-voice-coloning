@@ -1,0 +1,315 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e2bea516-92a2-4ca6-8034-0b8f9cfcb162</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>ProgStart.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>pys100</Name>
+    <RootNamespace>pys100</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AdapterPrj\encoderAdapter\encoderAdapterC.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\encoderAdapter\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\mediaPlayerAdapter\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\SSAdapterUse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\syntheAdapter\syntheAdapterC.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\syntheAdapter\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\TTsAdapterttsX.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\vocoderAdapter\vocoderAdapter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\vocoderAdapter\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptionmy\costumeException.py" />
+    <Compile Include="Helpers\audioSaver.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\cutWaveToSize.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\srtvidaudioFunc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\subCreator\subFileMaker.py" />
+    <Compile Include="Helpers\subCreator\__init__.py" />
+    <Compile Include="Exceptionmy\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FfmpegHandler\AudioMake.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FfmpegHandler\mediaMaker.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FfmpegHandler\SubtitleAdder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FfmpegHandler\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\setsIDXAudioTime.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProgStart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="recAndAudFiles\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SStV2Ref\encoder\audio.py" />
+    <Compile Include="SStV2Ref\encoder\config.py" />
+    <Compile Include="SStV2Ref\encoder\data_objects\random_cycler.py" />
+    <Compile Include="SStV2Ref\encoder\data_objects\speaker.py" />
+    <Compile Include="SStV2Ref\encoder\data_objects\speaker_batch.py" />
+    <Compile Include="SStV2Ref\encoder\data_objects\speaker_verification_dataset.py" />
+    <Compile Include="SStV2Ref\encoder\data_objects\utterance.py" />
+    <Compile Include="SStV2Ref\encoder\data_objects\__init__.py" />
+    <Compile Include="SStV2Ref\encoder\inference.py" />
+    <Compile Include="SStV2Ref\encoder\model.py" />
+    <Compile Include="SStV2Ref\encoder\params_data.py" />
+    <Compile Include="SStV2Ref\encoder\params_model.py" />
+    <Compile Include="SStV2Ref\encoder\preprocess.py" />
+    <Compile Include="SStV2Ref\encoder\train.py" />
+    <Compile Include="SStV2Ref\encoder\visualizations.py" />
+    <Compile Include="SStV2Ref\encoder\__init__.py" />
+    <Compile Include="SStV2Ref\synthesizer\audio.py" />
+    <Compile Include="SStV2Ref\synthesizer\feeder.py" />
+    <Compile Include="SStV2Ref\synthesizer\hparams.py" />
+    <Compile Include="SStV2Ref\synthesizer\inference.py" />
+    <Compile Include="SStV2Ref\synthesizer\infolog.py" />
+    <Compile Include="SStV2Ref\synthesizer\models\architecture_wrappers.py" />
+    <Compile Include="SStV2Ref\synthesizer\models\attention.py" />
+    <Compile Include="SStV2Ref\synthesizer\models\custom_decoder.py" />
+    <Compile Include="SStV2Ref\synthesizer\models\helpers.py" />
+    <Compile Include="SStV2Ref\synthesizer\models\modules.py" />
+    <Compile Include="SStV2Ref\synthesizer\models\tacotron.py" />
+    <Compile Include="SStV2Ref\synthesizer\models\__init__.py" />
+    <Compile Include="SStV2Ref\synthesizer\preprocess.py" />
+    <Compile Include="SStV2Ref\synthesizer\synthesize.py" />
+    <Compile Include="SStV2Ref\synthesizer\tacotron2.py" />
+    <Compile Include="SStV2Ref\synthesizer\train.py" />
+    <Compile Include="SStV2Ref\synthesizer\utils\cleaners.py" />
+    <Compile Include="SStV2Ref\synthesizer\utils\numbers.py" />
+    <Compile Include="SStV2Ref\synthesizer\utils\plot.py" />
+    <Compile Include="SStV2Ref\synthesizer\utils\symbols.py" />
+    <Compile Include="SStV2Ref\synthesizer\utils\text.py" />
+    <Compile Include="SStV2Ref\synthesizer\utils\_cmudict.py" />
+    <Compile Include="SStV2Ref\synthesizer\utils\__init__.py" />
+    <Compile Include="SStV2Ref\synthesizer\__init__.py" />
+    <Compile Include="SStV2Ref\vocoder\audio.py" />
+    <Compile Include="SStV2Ref\vocoder\display.py" />
+    <Compile Include="SStV2Ref\vocoder\distribution.py" />
+    <Compile Include="SStV2Ref\vocoder\gen_wavernn.py" />
+    <Compile Include="SStV2Ref\vocoder\hparams.py" />
+    <Compile Include="SStV2Ref\vocoder\inference.py" />
+    <Compile Include="SStV2Ref\vocoder\models\deepmind_version.py" />
+    <Compile Include="SStV2Ref\vocoder\models\fatchord_version.py" />
+    <Compile Include="SStV2Ref\vocoder\train.py" />
+    <Compile Include="SStV2Ref\vocoder\vocoder_dataset.py" />
+    <Compile Include="SStV2Ref\vocoder\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SStV2Ref\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\converterVid\converterVid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\converterVid\makeAndLog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\converterVid\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\errorPop\Mypop.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\errorPop\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\recordingf\audioPlay.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\recordingf\micrecording.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\recordingf\plothandler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\recordingf\QDialogrecordGui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\recordingf\recordGui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\recordingf\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\textEditpro\sub.py" />
+    <Compile Include="UI\textEditpro\table.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\textEditpro\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\UIMainFrameUSe.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\videomanager\guiVid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdapterPrj\mediaPlayerAdapter\mediaPlayerAdapterC.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\videomanager\QdialogGuiVid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\videomanager\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UI\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdapterPrj\" />
+    <Folder Include="AdapterPrj\mediaPlayerAdapter\" />
+    <Folder Include="AdapterPrj\encoderAdapter\" />
+    <Folder Include="AdapterPrj\syntheAdapter\" />
+    <Folder Include="AdapterPrj\vocoderAdapter\" />
+    <Folder Include="FfmpegHandler\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Exceptionmy\" />
+    <Folder Include="Helpers\subCreator\" />
+    <Folder Include="recAndAudFiles\videoOut\" />
+    <Folder Include="SStV2Ref\" />
+    <Folder Include="recAndAudFiles\" />
+    <Folder Include="recAndAudFiles\finalSetCombine\" />
+    <Folder Include="SStV2Ref\encoder\" />
+    <Folder Include="SStV2Ref\encoder\data_objects\" />
+    <Folder Include="SStV2Ref\encoder\saved_models\" />
+    <Folder Include="SStV2Ref\encoder\__pycache__\" />
+    <Folder Include="SStV2Ref\synthesizer\" />
+    <Folder Include="SStV2Ref\synthesizer\models\" />
+    <Folder Include="SStV2Ref\synthesizer\models\__pycache__\" />
+    <Folder Include="SStV2Ref\synthesizer\saved_models\" />
+    <Folder Include="SStV2Ref\synthesizer\saved_models\logs-pretrained\" />
+    <Folder Include="SStV2Ref\synthesizer\saved_models\logs-pretrained\taco_pretrained\" />
+    <Folder Include="SStV2Ref\synthesizer\utils\" />
+    <Folder Include="SStV2Ref\synthesizer\utils\__pycache__\" />
+    <Folder Include="SStV2Ref\synthesizer\__pycache__\" />
+    <Folder Include="SStV2Ref\vocoder\" />
+    <Folder Include="SStV2Ref\vocoder\models\" />
+    <Folder Include="SStV2Ref\vocoder\models\__pycache__\" />
+    <Folder Include="SStV2Ref\vocoder\saved_models\" />
+    <Folder Include="SStV2Ref\vocoder\saved_models\pretrained\" />
+    <Folder Include="SStV2Ref\vocoder\__pycache__\" />
+    <Folder Include="UI\" />
+    <Folder Include="UI\errorPop\" />
+    <Folder Include="UI\converterVid\" />
+    <Folder Include="UI\textEditpro\" />
+    <Folder Include="UI\videomanager\" />
+    <Folder Include="UI\recordingf\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SStV2Ref\encoder\saved_models\pretrained.pt" />
+    <Content Include="SStV2Ref\encoder\__pycache__\audio.cpython-37.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\inference.cpython-37.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\inference.cpython-38.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\model.cpython-37.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\model.cpython-38.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\params_data.cpython-37.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\params_data.cpython-38.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\params_model.cpython-37.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\params_model.cpython-38.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="SStV2Ref\encoder\__pycache__\__init__.cpython-38.pyc" />
+    <Content Include="SStV2Ref\README.txt" />
+    <Content Include="SStV2Ref\synthesizer\LICENSE.txt" />
+    <Content Include="SStV2Ref\synthesizer\models\__pycache__\architecture_wrappers.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\models\__pycache__\attention.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\models\__pycache__\custom_decoder.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\models\__pycache__\helpers.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\models\__pycache__\modules.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\models\__pycache__\tacotron.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\models\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\saved_models\logs-pretrained\taco_pretrained\checkpoint" />
+    <Content Include="SStV2Ref\synthesizer\saved_models\logs-pretrained\taco_pretrained\tacotron_model.ckpt-278000.data-00000-of-00001" />
+    <Content Include="SStV2Ref\synthesizer\saved_models\logs-pretrained\taco_pretrained\tacotron_model.ckpt-278000.index" />
+    <Content Include="SStV2Ref\synthesizer\saved_models\logs-pretrained\taco_pretrained\tacotron_model.ckpt-278000.meta" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\cleaners.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\cleaners.cpython-38.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\numbers.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\plot.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\symbols.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\symbols.cpython-38.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\text.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\text.cpython-38.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\utils\__pycache__\__init__.cpython-38.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\audio.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\hparams.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\inference.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\inference.cpython-38.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\infolog.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\tacotron2.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\tacotron2.cpython-38.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="SStV2Ref\synthesizer\__pycache__\__init__.cpython-38.pyc" />
+    <Content Include="SStV2Ref\vocoder\LICENSE.txt" />
+    <Content Include="SStV2Ref\vocoder\models\__pycache__\fatchord_version.cpython-37.pyc" />
+    <Content Include="SStV2Ref\vocoder\saved_models\pretrained\pretrained.pt" />
+    <Content Include="SStV2Ref\vocoder\__pycache__\audio.cpython-37.pyc" />
+    <Content Include="SStV2Ref\vocoder\__pycache__\display.cpython-37.pyc" />
+    <Content Include="SStV2Ref\vocoder\__pycache__\distribution.cpython-37.pyc" />
+    <Content Include="SStV2Ref\vocoder\__pycache__\hparams.cpython-37.pyc" />
+    <Content Include="SStV2Ref\vocoder\__pycache__\inference.cpython-37.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
