@@ -1,7 +1,7 @@
 # VoiceTube - Video with TTS and voice coloning
 The software can imitate any voice which later will be used as the announcer's voice for the video's subtitles.(final project)
 
-We used LSTM to learn the algorithm to imitate the user's voice. The user puts his recording into the software and the software traning to imitate this recording. Therefore, more recordings will give a better imitation. In addition we also used in tacotron 2 for text-to-speech(TTS) precise.
+We used LSTM to learn the algorithm to imitate the user's voice. The user puts his recording into the software and the software traning to imitate this recording. Therefore, more recordings will give a better imitation. In addition we also used in tacotron 2 for text-to-speech(TTS) precise.<br/>
 ![VoiceTube logo](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/logo.png)
 
 
