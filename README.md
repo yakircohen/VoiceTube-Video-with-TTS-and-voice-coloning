@@ -6,7 +6,9 @@ We used LSTM to teach the algorithm to imitate the user's voice. The user puts h
 
 ![VoiceTube logo](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/logo.png)
 
+## Demo video
 
+![VoiceTube demo](https://github.com/yakircohen/VoiceTube-Video-with-TTS-and-voice-coloning/blob/main/How%20to%20use.mp4)
 ## Subtitles Edit
 ![Subtitles Edit](https://github.com/yakircohen/Video-with-TTS-and-voice-coloning/blob/main/Subtitles%20Edit.png)
 ### Edit subtitles screen:
